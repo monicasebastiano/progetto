@@ -1,13 +1,13 @@
 h2 {
     text-align: center;
-    background-color: brown;
+    background-color: burlywood;
 }
 
 .animali {
-    background-color: beige;
+    background-color:beige;
     display: flex;
     align-content: center;
-    flex-direction: column;
+    align-self: center;
 
 
 }

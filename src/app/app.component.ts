@@ -31,7 +31,7 @@ export class AppComponent {
     if (descrizione == "cane") {
       
       if (this.cane.style.display == "none"){
-        this.cane.style.display = "flex";
+        this.cane.style.display = "block";
       } else{
         this.cane.style.display = "none";
 
@@ -42,7 +42,7 @@ export class AppComponent {
     }
     if (descrizione == "gatto") {
       if (this.gatto.style.display == "none"){
-        this.gatto.style.display = "flex";
+        this.gatto.style.display = "block";
       } else{
         this.gatto.style.visibility = "none";
 
@@ -50,7 +50,7 @@ export class AppComponent {
     }
     if (descrizione == "criceto") {
       if (this.criceto.style.display == "none"){
-        this.criceto.style.display = "flex";
+        this.criceto.style.display = "block";
       } else{
         this.criceto.style.display = "none";
 
@@ -59,7 +59,7 @@ export class AppComponent {
 
     if (descrizione == "coniglio") {
       if (this.coniglio.style.display == "none"){
-        this.coniglio.style.display = "flex";
+        this.coniglio.style.display = "block";
       } else{
         this.coniglio.style.display = "none";
 
@@ -68,13 +68,13 @@ export class AppComponent {
 
     if (descrizione == "pappagallo") {
       if (this.pappagallo.style.display == "none"){
-        this.pappagallo.style.display = "flex";
+        this.pappagallo.style.display = "block";
       } else{
         this.pappagallo.style.display = "none";
 
       }
     }
-
+funzioneBottone ()
 
 
 
