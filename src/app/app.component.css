@@ -1,0 +1,33 @@
+h2 {
+    text-align: center;
+    background-color: brown;
+}
+
+.animali {
+    background-color: beige;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+
+
+}
+
+#Cane {
+    display: none;
+}
+
+#Gatto {
+    display: none;
+}
+
+#Criceto {
+    display: none;
+}
+
+#Coniglio {
+    display: none;
+}
+
+#Pappagallo {
+    display: none;
+}
